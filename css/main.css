@@ -27,6 +27,16 @@
   height: 2.5rem;
 }
 
+.description{
+  margin-top: 12rem;
+  font-size: 2rem;
+}
+
+.text-white{
+  color: white;
+}
+
+
 /*
 @media screen and (max-width: 768px) {
   .text-li{
@@ -63,15 +73,9 @@
   align-items:center;
 }
 
-.justify-center{
-  justify-content:center;
-}
 
 
 
-.text-white{
-  color: white;
-}
 
 .bg-white{
   background: #fff;
@@ -110,7 +114,7 @@ justify-content:space-between;
 /*Estilo del index*/
 .gradient{
   background: linear-gradient(to bottom right,#8B2D55, #DCB6DF);
-  height:100vh;
+ 
   width:100%;
   
 }
