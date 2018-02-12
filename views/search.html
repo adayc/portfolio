@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FoodMap</title>
+  <!-- Hojas de estilo para iconos -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  <link rel="shortcut icon" href="../assets/icons/food-icon.png" type="image/x-icon">
+  <!-- Fuentes externas del proyecto -->
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <!-- Hojas de estilo de Bootstrap  -->
+  <link type="text/css" rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css" />
+  <!-- Hojas de estilo personalizadas este proyecto  -->
+  <link href="../css/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Menú navegador-->
+  <nav class="navbar navbar-default bg-gradient text-white">
+    <div class="container-fluid space-between align-items-center">
+      <div class="row align-self-start">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="../index.html">
+            <i class="glyphicon glyphicon-menu-left"></i>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 font-pacifico">
+          <h2>Food Map</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <h5>Empieza tu nueva aventura culinaria !!!</h5>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Formulario de paises-->
+  <main>
+
+    <!-- Indicación para enviar el código-->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <h4>Restaurantes cercanos a ti</h4>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div id="map" class="map center-block"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <h5>Ingrese el rubro de restaurantes que desea buscar </h5>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-offset-2  flex-center justify-center">
+          <!-- Caja de texto para ingresar el ntipo de comida a buscar-->
+          <div class="margin-top center-block col-xs-12">
+            <input id="list-kind-of-food" list="kind-of-food" name="kind-of-food" class="col-xs-12">
+            <datalist id="kind-of-food">
+
+            </datalist>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 text-center margin-top">
+          <button id="btn-search" type="button" class="btn btn-success btn-sm">
+            Buscar
+          </button>
+        </div>
+      </div>
+
+      <div id="results" class="row col-xs-12 center-block results text-center">
+        
+
+      </div>
+    
+
+    </div>
+
+
+  </main>
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+          <h4 id="title-modal" class="title-modal"></h4>
+          <div id="modal-map" class="modal-map"></div>
+          <div id="modal-data" class="modal-data"></div>
+        </div>
+      </div>
+
+  <!-- Js de Jquery-->
+  <script type="text/javascript" src="../vendors/js/jquery-3.2.1.min.js"></script>
+  <!-- Js de bootstrap-->
+  <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+  <!-- Base de datos-->
+  <script type="text/javascript" src="../js/data.js"></script>
+  <!-- Js para la página-->
+  <script type="text/javascript" src="../js/search.js"></script>
+  <!-- API de Google Maps-->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzuohCrydXW_ZkeoCiX1cOZ8WkDLevZXE&libraries=places&callback=initMap"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+ /*Configuracion inicial de la página*/
+/*Resetendo el layout */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.help{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  align-items:center;
+}
+
+/*Clases reutilizables*/
+.flex-center{
+  display:flex;
+  align-items:center;
+}
+
+.justify-center{
+  justify-content:center;
+}
+
+.bg-transparent{
+  background-color: transparent;
+}
+
+.text-white{
+  color: white;
+}
+
+.bg-white{
+  background: #fff;
+}
+
+
+
+.align-items-center{
+  align-items:center;
+}
+
+.align-self-start{
+  align-self:flex-start;
+}
+
+.space-between{
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+
+}
+
+.stretch{
+  min-width:1rem;
+}
+
+
+.bg-gradient{
+  background: linear-gradient(#8B2D55, #00BF6D);
+  
+}
+
+.font-pacifico{
+  font-family: 'Pacifico', cursive;
+}
+
+.margin-top{
+  margin-top:2vh;
+}
+
+
+/*Estilo del index*/
+.gradient{
+  background: linear-gradient(#8B2D55, #00BF6D);
+  height:100vh;
+  width:100%;
+  
+}
+
+/*Estilos del search*/
+
+.map {
+  width: 80%;
+  height: 50vh;
+  border: 3px solid #D96600;
+}
+
+/*.container-img-p img{
+width:75vw;
+}*/
+
+
+.overlay-title {
+  width: 100%;
+  height: 30vh;
+  position: absolute;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #D96600;
+  font-size: 2em;
+  opacity: 0;
+  transition: opacity 0.5s linear;
+}
+
+.container-img {
+  width: 100%;
+  position: relative;
+}
+
+
+.results img {
+  width: 100%;
+  object-fit: cover;
+  height: 30vh;
+  object-position: center;
+}
+  
+
+.modal-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.modal-data {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.modal-data p {
+  margin: 0;
+  text-align: center;
+}
+
+
+
+
+@media screen and (min-width : 768px) {
+ /* .results img{
+    width:25vw;
+    margin-left:1vw;
+    }
+
+    */
+}
+
