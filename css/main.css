@@ -36,6 +36,13 @@
   color: white;
 }
 
+.mail{
+  color: #8B2D55;
+  background-color: white;
+  margin:1rem;
+  padding:1.5rem;
+  border-radius: 13px; 
+}
 
 /*
 @media screen and (max-width: 768px) {
