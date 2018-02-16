@@ -9,29 +9,27 @@
 
 
 .logo-ada{
-  height: 2.5rem;
+  height: 4.5rem;
 }
 
-.fondo-nav{
-  background-color: #005D6C;
+.fondo-grey{
+  background-color: #292929;
 }
 
-.color-nav{
-  color:#00C9B1 !important;
-  
+.text-red{
+  color:#F7484E !important;
 }
 
 .size-nav{
   font-size:2rem;
 }
 
-.bg-fondo{
-  background-color: #EFC5E3;
+
+.border-none{
+  border:none !important;
 }
 
-.text-pink{
-  color:#050727;
-}
+
 
 
 /*Flexbox para la barra de navegación*/
