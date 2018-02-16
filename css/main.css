@@ -73,7 +73,7 @@ a.text-red:hover{
   
   
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  
 }
 
 .text-white{
@@ -83,10 +83,22 @@ a.text-white{
   color: white;
 }
 
+
+
 .margin-section{
-  margin-top: 12.5vh;
+  margin-top: 13vh;
 }
 
+.text-black{
+color: black;
+}
+a.text-gray{
+  color: #6B6161;
+}
+
+a.text-gray:hover{
+  text-decoration: underline;
+}
 
 .bg-red{
   background-color:#F7484E;
@@ -99,29 +111,13 @@ a.text-white{
   outline: solid 1px red;
 }
 
-/*Flexbox para la barra de navegación*/
-
-
-
-.bg-transparent{
-  background-color: transparent;
+.text-section{
+ color:#6B6161;
+ font-size: 1.5rem;
 }
-
-
-
-
-
-.description{
-  margin-top: 12rem;
-  font-size: 2rem;
-}
-
-
-
-.foot-img{
-  margin-top:1rem;
-  margin-bottom: 1rem;
-  height:4rem;
+.img-skill{
+  width:10rem;
+  height:10rem;
 }
 
 /*
