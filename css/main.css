@@ -37,6 +37,18 @@ a.text-red:hover{
   height: 33%;
 }
 
+.text-paris{
+  font-family: 'Parisienne', cursive;
+  
+ 
+}
+
+.name{
+  font-size: 5.5rem;
+}
+
+
+
 
 .list-menu li{
   display: inline;
@@ -51,6 +63,41 @@ a.text-red:hover{
   justify-content: center;
 }
 
+.big-title{
+  
+  
+  font-size: 8rem;
+}
+
+.padding-section{
+  
+  
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.text-white{
+  color: white;
+}
+a.text-white{
+  color: white;
+}
+
+.margin-section{
+  margin-top: 12.5vh;
+}
+
+
+.bg-red{
+  background-color:#F7484E;
+}
+
+
+
+
+.borde{
+  outline: solid 1px red;
+}
 
 /*Flexbox para la barra de navegación*/
 
