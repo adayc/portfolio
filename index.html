@@ -9,6 +9,8 @@
   <!-- Hojas de estilo para iconos -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
     crossorigin="anonymous">
+<!-- Fuentes externas -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700" rel="stylesheet">
   <link rel="shortcut icon" href="assets/icons/ada.jpg" type="image/x-icon">
   <!-- Hojas de estilo de Bootstrap  -->
   <link type="text/css" rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css" />
@@ -19,36 +21,35 @@
 <body>
   <header class="container-fluid">
     <div class="row">
-      <nav class="navbar navbar-default navbar-fixed-top padding-nav">
-        <div class="container-fluid ">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid fondo-nav">
           <!-- Logo y menú desplegable para menú hamburguesa-->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed pull-left bg-white " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+          <div class="navbar-header fondo-nav">
+            <button type="button" class="navbar-toggle collapsed pull-left fondo-nav" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
               aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
+              <img src="assets/images/olas.png" alt="Imagen de usuario" class="logo-ada">
+           
             </button>
 
           </div>
           <!-- Lista de links -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav text-center text-nav">
+            <ul class="nav navbar-nav text-center size-nav">
               <li>
-                <a href="#">Who I am </a>
+                <a href="#" class="color-nav">Who I am </a>
               </li>
               <li>
-                <a href="#" data-toggle="modal" data-target="#new-driver">Skills</a>
+                <a href="#" class="color-nav">Skills</a>
               </li>
               <li class="hidden-xs">
                 <img src="assets/images/ada.jpg" alt="Imagen de usuario" class="logo-ada">
               </li>
               <li>
-                <a href="#" data-toggle="modal" data-target="#login">Portfolio</a>
+                <a href="#" class="color-nav">Portfolio</a>
               </li>
               <li>
-                <a href="#" data-toggle="modal" data-target="#login">Work</a>
+                <a href="#" class="color-nav">Work</a>
               </li>
             </ul>
           </div>
@@ -58,10 +59,10 @@
       </nav>
     </div>
   </header>
-  <main>
-    <div class="container-fluid gradient flex-center justify-center">
+  <main class="bg-fondo text-pink">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-12 text-white description">
+        <div class="col-xs-12">
           <p>
             Soy UX Designer egresada de Laboratoria y Bachiller en Administración de negocios internacionales de la Universidad Nacional
             Mayor de San Marcos.
@@ -78,11 +79,11 @@
             tomando riesgos y viajando.
           </p>
         </div>
-        <div class="col-xs-11 mail text-center">
+        <div class="col-xs-11">
 adayc@hotmail.com
         </div>
         <div class="col-xs-12">
-            <img class="col-xs-12" src="assets/images/profile.jpg" alt="Imagen de usuario">
+            <img class="col-xs-12" src="assets/images/ada-portfolio.jpg" alt="Imagen de usuario">
         </div>
 
       </div>
