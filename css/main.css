@@ -21,16 +21,17 @@
 }
 
 .size-nav{
+  font-size:2.5rem;
+}
+
+.margin-top{
+  margin-top: 20vh;
+}
+
+.list-menu li{
+  display: inline;
   font-size:2rem;
 }
-
-
-.border-none{
-  border:none !important;
-}
-
-
-
 
 /*Flexbox para la barra de navegación*/
 
