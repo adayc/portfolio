@@ -17,7 +17,12 @@
 }
 
 .text-red{
-  color:#F7484E !important;
+  color:#F46E5B
+ !important;
+}
+
+.text-pink{
+  color:#e2b6ba !important;
 }
 
 a.text-red:hover{
@@ -33,13 +38,87 @@ a.text-red:hover{
   margin-top: 15vh;
 }
 .padding-top{
-  padding-top: 15vh;
+  padding-top: 13vh;
 }
 
-.profile{
+/*---------------------imagen perfil---------------------*/
+.profile:hover{
   
-  /*width: 30rem;*/
+
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;}
+
+
+/*
+@-webkit-keyframes  
+{
+15%
+{
+-webkit-transform: translateX(5px);
+transform: translateX(5px);
 }
+30%
+{
+-webkit-transform: translateX(-5px);
+transform: translateX(-5px);
+}
+50%
+{
+-webkit-transform: translateX(3px);
+transform: translateX(3px);
+}
+65%
+{
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+}
+80%
+{
+-webkit-transform: translateX(2px);
+transform: translateX(2px);
+}
+100%
+{
+-webkit-transform: translateX(0);
+transform: translateX(0);
+}
+}
+@keyframes swing
+{
+15%
+{
+-webkit-transform: translateX(5px);
+transform: translateX(5px);
+}
+30%
+{
+-webkit-transform: translateX(-5px);
+transform: translateX(-5px);
+}
+50%
+{
+-webkit-transform: translateX(3px);
+transform: translateX(3px);
+}
+65%
+{
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+}
+80%
+{
+-webkit-transform: translateX(2px);
+transform: translateX(2px);
+}
+100%
+{
+-webkit-transform: translateX(0);
+transform: translateX(0);
+}
+}
+/*------------------------------------------*/
 
 .text-paris{
   font-family: 'Parisienne', cursive;
@@ -49,6 +128,7 @@ a.text-red:hover{
 
 .name{
   font-size: 5.5rem;
+  text-decoration:underline;
 }
 
 
@@ -113,7 +193,8 @@ a.text-gray:hover{
 }
 
 .bg-petalos{
-  background-image:url('../assets/images/petalos.png');
+  background-image:url('../assets/images/petalos.png')  ;
+  background-size:100%;
 }
 
 
