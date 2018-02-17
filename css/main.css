@@ -51,73 +51,13 @@ a.text-red:hover{
   transform-style: preserve-3d;}
 
 
-/*
-@-webkit-keyframes  
-{
-15%
-{
--webkit-transform: translateX(5px);
-transform: translateX(5px);
-}
-30%
-{
--webkit-transform: translateX(-5px);
-transform: translateX(-5px);
-}
-50%
-{
--webkit-transform: translateX(3px);
-transform: translateX(3px);
-}
-65%
-{
--webkit-transform: translateX(-3px);
-transform: translateX(-3px);
-}
-80%
-{
--webkit-transform: translateX(2px);
-transform: translateX(2px);
-}
-100%
-{
--webkit-transform: translateX(0);
-transform: translateX(0);
-}
-}
-@keyframes swing
-{
-15%
-{
--webkit-transform: translateX(5px);
-transform: translateX(5px);
-}
-30%
-{
--webkit-transform: translateX(-5px);
-transform: translateX(-5px);
-}
-50%
-{
--webkit-transform: translateX(3px);
-transform: translateX(3px);
-}
-65%
-{
--webkit-transform: translateX(-3px);
-transform: translateX(-3px);
-}
-80%
-{
--webkit-transform: translateX(2px);
-transform: translateX(2px);
-}
-100%
-{
--webkit-transform: translateX(0);
-transform: translateX(0);
-}
-}
+  .grow:hover
+  {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  }
+
 /*------------------------------------------*/
 
 .text-paris{
