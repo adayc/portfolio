@@ -32,9 +32,13 @@ a.text-red:hover{
 .margin-top{
   margin-top: 15vh;
 }
+.padding-top{
+  padding-top: 15vh;
+}
 
 .profile{
-  height: 33%;
+  
+  /*width: 30rem;*/
 }
 
 .text-paris{
@@ -72,7 +76,7 @@ a.text-red:hover{
 .padding-section{
   
   
-  padding-top: 2rem;
+  padding: 2.5rem;
   
 }
 
@@ -92,6 +96,10 @@ a.text-white{
 .text-black{
 color: black;
 }
+
+.text-gray{
+  color: #6B6161;
+}
 a.text-gray{
   color: #6B6161;
 }
@@ -104,16 +112,20 @@ a.text-gray:hover{
   background-color:#F7484E;
 }
 
+.bg-petalos{
+  background-image:url('../assets/images/petalos.png');
+}
 
 
 
 .borde{
-  outline: solid 1px red;
+ 
+  /*box-shadow: 5px 5px 5px #F45B97 ; #DAF7A6 */
 }
 
 .text-section{
- color:#6B6161;
- font-size: 1.5rem;
+
+ font-size: 2.5rem;
 }
 .img-skill{
   width:10rem;
