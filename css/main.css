@@ -21,9 +21,6 @@
  !important;
 }
 
-.text-pink{
-  color:#e2b6ba !important;
-}
 
 a.text-red:hover{
   text-decoration:underline !important;
@@ -34,12 +31,7 @@ a.text-red:hover{
   font-size:2.5rem;
 }
 
-.margin-top{
-  margin-top: 15vh;
-}
-.padding-top{
-  padding-top: 13vh;
-}
+
 
 /*---------------------imagen perfil---------------------*/
 .profile:hover{
@@ -60,6 +52,15 @@ a.text-red:hover{
   
  
 }
+
+.text-rancho{
+  font-family: 'Rancho', cursive;
+}
+
+.text-bad{
+  font-family: 'Bad Script', cursive;
+}
+
 
 .name{
   font-size: 5.5rem;
@@ -88,11 +89,9 @@ a.text-red:hover{
   font-size: 8rem;
 }
 
-.padding-section{
-  
-  
-  padding: 2.5rem;
-  
+
+.line{
+  outline: solid 1px green;
 }
 
 .text-white{
@@ -104,9 +103,6 @@ a.text-white{
 
 
 
-.margin-section{
-  margin-top: 13vh;
-}
 
 .text-black{
 color: black;
