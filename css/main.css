@@ -101,6 +101,14 @@ a.text-white{
   color: white;
 }
 
+a.text-white:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+.text-link{
+  font-size:1.6rem;
+}
 
 
 
@@ -149,6 +157,20 @@ a.text-gray:hover{
   margin:1rem;
 }
 
+.img-icon{
+  width:20%;
+ 
+}
+
+.mail{
+  padding:1rem;
+  background-color: white;
+  border-radius:20px;
+  border:dotted 5px  #6B6161;
+  font-size: 2.5rem;
+}
+
+
 
 @media screen and (min-width: 768px) {
   .grow:hover
@@ -163,6 +185,16 @@ a.text-gray:hover{
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5);
+  }
+
+  .img-port{
+    width: 70.8% !important;
+    margin-left:15%;
+  }
+  
+  .img-port2{
+    width: 76% !important;
+    margin-left:12%;
   }
 }
 
