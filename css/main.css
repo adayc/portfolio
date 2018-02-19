@@ -7,6 +7,15 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
+.saturate{
+  width: 6rem;
+  height: 4rem;
+  margin:1vh;
+}
+
+.saturate:hover {filter: opacity(.5);}
+
+
 
 .logo-ada{
   height: 4.5rem;
@@ -170,6 +179,9 @@ a.text-gray:hover{
   font-size: 2.5rem;
 }
 
+footer{
+  padding: 1rem;
+}
 
 
 @media screen and (min-width: 768px) {
@@ -195,6 +207,12 @@ a.text-gray:hover{
   .img-port2{
     width: 76% !important;
     margin-left:12%;
+  }
+
+  .saturate{
+    width: 10rem;
+    height: 5rem;
+    margin:1vh;
   }
 }
 
