@@ -250,7 +250,11 @@ footer{
 
 }
 
-
+@media screen and (min-width: 1200px) {
+  .margin-left{
+    margin-left: -10rem !important;
+  }
+}
 
 
 /*************************/
