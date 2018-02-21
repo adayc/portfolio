@@ -7,6 +7,13 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
+body{
+  background-color:#F7484E;
+}
+
+.bg-white{
+  background-color:white;
+}
 .border-radius{
   border: 2px solid #F46E5B;
  margin-bottom:2rem;
@@ -67,7 +74,7 @@ a.text-red:hover{
 
 
 /*---------------------imagen perfil---------------------*/
-.profile:hover{
+/*.profile:hover{
   
 
   -webkit-transform: rotateY(180deg);
@@ -195,12 +202,13 @@ a.text-gray:hover{
  
 }
 
-.mail{
+a.mail{
   padding:1rem;
-  background-color: white;
+  
   border-radius:20px;
-  border:dotted 5px  #6B6161;
-  font-size: 2.5rem;
+  border:solid 1px  #6B6161;
+  font-size: 2rem;
+color:#F7484E;
 }
 
 footer{

@@ -40,16 +40,16 @@
             <div class="flex">
               <ul class="nav navbar-nav  size-nav   ">
                 <li>
-                  <a href="#who" class="text-red"> About me</a>
+                  <a href="#who"  data-scroll class="text-red"> About me</a>
                 </li>
                 <li>
-                  <a href="#skills" class="text-red">Skills</a>
+                  <a href="#skills" data-scroll class="text-red">Skills</a>
                 </li>
                 <li>
-                  <a href="#portfolio" class="text-red">Portfolio</a>
+                  <a href="#portfolio"  data-scroll class="text-red">Portfolio</a>
                 </li>
                 <li>
-                  <a href="#contact" class="text-red">Contact</a>
+                  <a href="#contact"  data-scroll class="text-red">Contact</a>
                 </li>
               
               </ul>
@@ -86,7 +86,7 @@
           </section>
 
             
-      <section  class="text-red  padding-top padding-bottom">
+      <section  class="text-red  padding-top padding-bottom bg-white">
           <div class="container-fluid " id="profile">
     
     
@@ -194,7 +194,7 @@
       
       
           </section>
-          <section id="portfolio" class="text-red line padding-top padding-bottom">
+          <section id="portfolio" class="text-red line padding-top padding-bottom bg-white">
               <div class="container-fluid " id="profile">
         
                 <div class="row line">
@@ -215,7 +215,7 @@
                         <img class="img-rounded img-responsive img-port" src="assets/images/viaggio.jpg" alt="Logo de aplicación" data-toggle="modal"
                           data-target="#modalViaggio">
                       </a>
-                      <div class="col-xs-4 line text-center">
+                      <div class="col-xs-4 line text-center ">
           
                         <a class="btn text-red text-link " href="https://github.com/adayc/web-buses" target="_blank" role="button">
                           <img  src="assets/images/github-ico.png" alt="Logo de aplicación"> Github
@@ -432,7 +432,7 @@
 
 
 
-    <section id="contact" class="text-red fondo-grey ">
+    <section id="contact" class="text-red fondo-grey padding-bottom ">
         <div class="container-fluid " id="profile">
   
   
@@ -464,11 +464,13 @@
   
   
             </div>
-            <div class="  col-sm-4 col-sm-offset-4  col-xs-12 text-center mail">
-              adayc@hotmail.com
+            <div class="  col-sm-4 col-sm-offset-4  col-xs-12 text-center mail padding-top">
+              <a class="mail" href="mailto:adayc@hotmail.com?subject=Hi, Ada!">adayc@hotmail.com</a>
             </div>
-            <div class="  col-sm-4 col-sm-offset-4  col-xs-12 text-center mail">
-                Download CV
+            <div class="  col-sm-4 col-sm-offset-4  col-xs-12 text-center padding-top ">
+                <a href="assets/cv.pdf">
+              <img  src="assets/images/downloadcv.png" alt="Logo de aplicación" >
+                </a>
               </div>
     
               
@@ -480,26 +482,37 @@
            
   
           </div>
-          <div class="row flex">
-           
+          <div class="row padding-top">
+           <div class="col-xs-3 text-center">
               <a href="https://github.com/adayc" target="_blank">
-                <img class="saturate " src="assets/images/github1.png" alt="Logo de aplicación" >
+                <img  src="assets/images/github-white.png" alt="Logo de aplicación" >
               </a>
+           </div>
+             
             
-            
-              <a href="https://www.linkedin.com/in/adayajahuanca/" target="_blank">
-                <img class="saturate " src="assets/images/linkedin1.png" alt="Logo de aplicación" >
-              </a>
-         
+           <div class="col-xs-3 text-center">
+                <a href="https://www.linkedin.com/in/adayajahuanca/" target="_blank">
+                  <img  src="assets/images/linkedin-white.png" alt="Logo de aplicación" >
+                  </a>
+             
+
+            </div>
+            <div class="col-xs-3 text-center">
+
+                <a href="https://medium.com/@adayc" target="_blank">
+                  <img  src="assets/images/medium-white.png" alt="Logo de aplicación" >
+                     </a>
+             </div>
            
-              <a href="https://medium.com/@adayc" target="_blank">
-                <img class="saturate " src="assets/images/medium1.png" alt="Logo de aplicación" >
-              </a>
+             
           
-           
+             <div class="col-xs-3 text-center">
               <a href="https://twitter.com/adayc2703" target="_blank">
-                <img class="saturate " src="assets/images/twitter1.png" alt="Logo de aplicación" >
-              </a>
+                <img  src="assets/images/twitter-white.png" alt="Logo de aplicación" >
+                 </a>
+
+           </div>
+            
          
            
           </div>
@@ -523,6 +536,7 @@
   <!-- Js de bootstrap-->
   <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
   <!-- Js para la página-->
+  <script src="js/smooth.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
 </body>
 
