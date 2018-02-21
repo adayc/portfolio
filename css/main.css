@@ -7,6 +7,30 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
+.border-radius{
+  border: 2px solid #F46E5B;
+ margin-bottom:2rem;
+
+  border-radius: 50px 20px;
+}
+.margin-top{
+  margin-top: 12vh;
+}
+
+.padding-top{
+  padding-top:4vh;
+}
+
+.padding-bottom{
+  padding-bottom:4vh;
+}
+
+.text-josefin{
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold;
+}
+
+
 .saturate{
   width: 6rem;
   height: 4rem;
@@ -233,6 +257,7 @@ footer{
   font-weight:100;
   overflow:hidden;
   animation:bg 5s linear infinite;
+  background-color:#F7484E;
 }
 
 .dropping-texts {
@@ -344,7 +369,7 @@ footer{
     transform: rotate(15deg);
   }
 }
-
+/*
 @keyframes bg {
   0% {background: #180707;}
   3% {background: #4a1517;}
@@ -357,4 +382,4 @@ footer{
   80% {background: #621c1f;}
   83% {background: #310e0f;}
   100% {background: #f7484e;}
-}
+}*/
