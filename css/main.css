@@ -25,7 +25,7 @@ body{
 }
 
 .padding-top{
-  padding-top:4vh;
+  padding-top:0vh;
 }
 
 .padding-bottom{
@@ -130,7 +130,7 @@ a.text-red:hover{
 .big-title{
   
   
-  font-size: 8rem;
+  font-size: 6rem;
 }
 
 /*
@@ -209,10 +209,16 @@ a.text-gray:hover{
 a.mail{
   padding:1rem;
   
+  
   border-radius:20px;
   border:solid 1px  #6B6161;
   font-size: 2rem;
 color:#F7484E;
+}
+
+.cv{
+  margin-top:2rem;
+  margin-bottom:2rem;
 }
 
 footer{
