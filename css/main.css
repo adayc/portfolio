@@ -15,6 +15,7 @@
 
 }
 
+
 .marine{
   color: #17A589 !important ;
 }
@@ -53,6 +54,12 @@ a.text-white:hover{
 
 .padding-section{
   padding-top:15vh;
+ 
+}
+
+.bottom{
+  padding-bottom:15vh;
+ 
 }
 
 .zoom:hover{
@@ -65,13 +72,36 @@ a.text-white:hover{
 box-shadow: 6px 10px 41px 5px rgba(0,0,0,0.33);
 margin-top: 1vh;
  }
+
+ .btn-marine {
+ color: #17A589 !important ;
+   margin: 2vh;
+   padding: 2vh;
+ }
+
+ .text-modal{
+font-size: 1.5rem;
+ }
+
+
+ footer{
+  background-color: #17A589 !important ;
+  
+ }
 @media screen and (min-width: 768px) {
   .flex{
     
     justify-content: flex-end;
   
   }
-
+  .flex-section{
+    display: flex;
+    justify-content: center;
+  
+  }
+  .text-section{
+    font-size: 2.5rem;
+  }
 }
 
 /* 
