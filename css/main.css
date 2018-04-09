@@ -7,8 +7,44 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
+
+
+.flex{
+  display: flex;
+  justify-content: center;
+
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+
+}
+
+@media screen and (min-width: 768px) {
+  .flex{
+    
+    justify-content: flex-end;
+  
+  }
+
+}
+
+/* 
+
+ 
+a.text-black{
+color:#000 !important;
+}
+
+a.text-black:hover{
+  text-decoration:underline !important;
+  color: red;
+}
+
+/*
 body{
-  background-color:#F7484E;
+/*  background-color:#F7484E;
 }
 
 .bg-white{
@@ -56,16 +92,10 @@ body{
   background-color: #292929;
 }
 
-.text-red{
-  color:#F46E5B
- !important;
-}
 
 
-a.text-red:hover{
-  text-decoration:underline !important;
-  color: white;
-}
+
+
 
 .size-nav{
   font-size:2.5rem;
@@ -85,7 +115,7 @@ a.text-red:hover{
 
  
 
-/*------------------------------------------*/
+/*------------------------------------------
 
 .text-paris{
   font-family: 'Parisienne', cursive;
@@ -122,10 +152,7 @@ a.text-red:hover{
 }
 
 
-.flex{
-  display: flex;
-  justify-content: center;
-}
+
 
 .big-title{
   
@@ -137,7 +164,7 @@ a.text-red:hover{
 .line{
   outline: solid 1px green;
 }
-*/
+
 .text-white{
   color: white;
 }
@@ -184,7 +211,7 @@ a.text-gray:hover{
 
 .borde{
  
-  /*box-shadow: 5px 5px 5px #F45B97 ; #DAF7A6 */
+  /*box-shadow: 5px 5px 5px #F45B97 ; #DAF7A6 
 }
 
 .text-section{
@@ -275,15 +302,18 @@ footer{
 .banner {
   margin:0px;
   text-align:center;
-  padding-top:10vh;
-  padding-bottom:2vh;
-  color:#fff;
+  padding-top:20vh;
+  padding-bottom:12vh;
+ color:#fff;
   font-family:'Roboto';
   font-size:36px;
   font-weight:100;
   overflow:hidden;
   animation:bg 5s linear infinite;
-  background-color:#F7484E;
+  background-image:url('../assets/images/fondo.jpg') ;
+  background-size:100% 100%;  
+  background-repeat: no-repeat;
+ 
 }
 
 .dropping-texts {
