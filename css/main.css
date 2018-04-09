@@ -37,7 +37,9 @@ a.text-white:hover{
   color: #17A589  !important;
   text-decoration: underline !important;
 }
-
+.inline{
+  display:inline;
+}
 
 
 
