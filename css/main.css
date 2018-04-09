@@ -23,6 +23,24 @@
   padding: 1vh;
 }
 
+.size-nav{
+  font-size:2rem;
+}
+.bg-black{
+  background-color: black;
+}
+
+.text-white{
+  color: white !important;
+}
+a.text-white:hover{
+  color: #17A589  !important;
+  text-decoration: underline !important;
+}
+
+
+
+
 @media screen and (min-width: 768px) {
   .flex{
     
@@ -99,9 +117,7 @@ body{
 
 
 
-.size-nav{
-  font-size:2.5rem;
-}
+
 
 
 
@@ -167,12 +183,6 @@ body{
   outline: solid 1px green;
 }
 
-.text-white{
-  color: white;
-}
-a.text-white{
-  color: white;
-}
 
 a.text-white:hover{
   color: white;
