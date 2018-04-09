@@ -16,7 +16,7 @@
 }
 
 .marine{
-  color: #17A589  ;
+  color: #17A589 !important ;
 }
 
 .padding{
@@ -37,12 +37,34 @@ a.text-white:hover{
   color: #17A589  !important;
   text-decoration: underline !important;
 }
-.inline{
-  display:inline;
+.brand-text{
+  font-family: 'Gamja Flower', cursive;
+  font-size: 4rem;
 }
 
+.cardo-text{
+  font-family: 'Cardo', serif;
+  font-size: 5rem;
+}
 
+.text-section{
+  font-size: 2rem;
+}
 
+.padding-section{
+  padding-top:15vh;
+}
+
+.zoom:hover{
+  
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-box-shadow: 6px 10px 41px 5px rgba(0,0,0,0.33);
+-moz-box-shadow: 6px 10px 41px 5px rgba(0,0,0,0.33);
+box-shadow: 6px 10px 41px 5px rgba(0,0,0,0.33);
+margin-top: 1vh;
+ }
 @media screen and (min-width: 768px) {
   .flex{
     
@@ -320,25 +342,26 @@ footer{
 .banner {
   margin:0px;
   text-align:center;
-  padding-top:20vh;
-  padding-bottom:12vh;
+  padding-top:40vh;
+
+  
 
   font-family:'Roboto';
-  font-size:36px;
+  font-size:30px;
   
   overflow:hidden;
   animation:bg 5s linear infinite;
   background-image:url('../assets/images/fondo.jpg') ;
   background-size:100% 100%;  
   background-repeat: no-repeat;
- 
+ height:100vh;
 }
 
 .dropping-texts {
   display: inline-block;
   width: 180px;
   text-align: left;
-  height: 36px;
+  height: 30px;
   vertical-align: -2px;
 }
 
