@@ -15,6 +15,11 @@
 
 }
 
+.flex-img{
+  display: flex;
+  justify-content: center;
+
+}
 
 .marine{
   color: #17A589 !important ;
