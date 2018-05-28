@@ -1,733 +1,495 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <title>Ada - UX Designer</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Ada Tatiana Yajahuanca - Portfolio" />
+        <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
+        <meta name="author" content="Colorlib" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Ada</title>
-  <!-- Hojas de estilo para iconos -->
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-    crossorigin="anonymous">
-  <!-- Fuentes externas -->
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Cardo:400,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Pacifico|Permanent+Marker" rel="stylesheet">
-  <link rel="shortcut icon" href="assets/images/brand.png" type="image/x-icon">
-  <!-- Hojas de estilo de Bootstrap  -->
-  <link type="text/css" rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css" />
-  <!-- Hojas de estilo personalizadas este proyecto  -->
-  <link href="css/main.css" rel="stylesheet">
-</head>
+        <link rel="shortcut icon" href="images/favicon.png" />
+        <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900|Montserrat:400,700|PT+Serif' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css"  href='css/clear.css' />
+        <link rel="stylesheet" type="text/css"  href='css/common.css' />
+        <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
+        <link rel="stylesheet" type="text/css"  href='css/carouFredSel.css' />
+        <link rel="stylesheet" type="text/css"  href='css/prettyPhoto.css' />
+        <link rel="stylesheet" type="text/css"  href='css/sm-clean.css' />
+        <link rel="stylesheet" type="text/css"  href='style.css' />
 
-<body>
-  <header class="container-fluid">
-    <div class="row">
-      <nav class="navbar navbar-default navbar-fixed-top size-nav bg-black">
-        <div class="container-fluid  border-none ">
-          <!-- Logo y menú desplegable para menú hamburguesa-->
-          <div class="navbar-header  border-none padding">
-            <button type="button" class="navbar-toggle collapsed   border-none" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-              aria-expanded="false">
+        <!--[if lt IE 9]>
+                <script src="js/html5.js"></script>
+        <![endif]-->
 
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
+    </head>
+    <body>
 
-            </button>
-            <a class="navbar-brand brand-text marine" href="#">Ada</a>
-          </div>
-          <!-- Lista de links -->
-          <div class="collapse navbar-collapse text-center padding" id="bs-example-navbar-collapse-1">
-            <div class="flex">
-              <ul class="nav navbar-nav">
-                <li>
-                  <a href="#who" data-scroll class="text-white"> About me</a>
-                </li>
+        <!-- Preloader Gif -->
+        <table class="doc-loader">
+            <tr>
+                <td>
+                    <img src="images/ada-portfolio.jpg" alt="Loading..." />
+                </td>
+            </tr>
+        </table>
+
+        <!-- Menu -->
+        <div class="menu-wrapper center-relative">
+            <nav id="header-main-menu">
+                <div class="mob-menu">MENU</div>
+                <ul class="main-menu sm sm-clean">
+                    <li><a href="#home">Home</a></li>
+                 
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                   
                
-                <li>
-                  <a href="#portfolio" data-scroll class="text-white">Portfolio</a>
-                </li>
-                <li>
-                  <a href="#contact" data-scroll class="text-white">Contact</a>
-                </li>
-
-              </ul>
-            </div>
-          </div>
-          <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-      </nav>
-    </div>
-  </header>
-  <main>
-
-    <section class=" ">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-12   banner text-center ">
-            <div class=" bg-transparent text-center cardo-text "> Hey ! Im
-              <span class="marine cardo-text">Ada</span>
-            </div>
-            <div class=" text-center bg-transparent"> An UX designer who loves to create lovely experiences</div>
-
-            <div class="bg-transparent">
-              <span class="bg-transparent">UX works for </span>
-              <div class="dropping-texts marine">
-                <div class="">Developers</div>
-                <div>Designers</div>
-                <div>Coders</div>
-                <div>Everyone!</div>
-              </div>
-            </div>
-          </div>
-
-
-
-        </div>
-
-      </div>
-    </section>
-
-
-    <section id="who" class=" padding text-section ">
-      <div class="container-fluid">
-        <div class="row">
-
-          <div class="col-xs-12">
-            <div class="cardo-text text-center padding-section ">
-              About me
-            </div>
-          </div>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
 
 
-        <div class="row bottom">
-<div class="">
-    <div class="col-xs-12 flex-img padding">
-        <img class="img-responsive  img-circle text-center" src="assets/images/ada-portfolio.jpg" alt="Imagen de usuario">
-      </div>
-    <div class="col-xs-12 text-justify ">
 
+        <!-- Home -->
 
-
-        <p>
-          I’m a UX Designer from Laboratoria and Bachelor in Administration and International Business.
-        </p>
-
-        <p>
-          As a professional, I definitely consider research as a fundamental way to find the users' needs to make them feel pleased
-          about a product. That's the principal reason why I want to specialize in UX Research.
-          <!-- Soy UX Designer egresada de Laboratoria y Bachiller en Administración de negocios internacionales. Considero a la investigación
-              como un medio fundamental para encontrar las necesidades de los usuarios y satisfacerlas. Es por ello que deseo
-              especializarme en UX Research.   Siempre puedes encontrarme pintando mándalas, leyendo un libro, aprendiendo cosas nuevas o conversando con las personas,
-              tomando riesgos y viajando.-->
-        </p>
-
-        <p>
-          You can always see me painting mandalas, reading books, learning new things or talking with people, taking risks and traveling.
-        </p>
-
-
-      </div>
-
-
-
-
-
-      
-
-
-</div>
-
-          
-        </div>
-
-      </div>
-
-
-
-    </section>
-
-
-    <section id="portfolio" class=" padding text-section ">
-      <div class="container-fluid ">
-        <div class="row">
-
-          <div class="col-xs-12">
-            <div class="cardo-text text-center padding-section bottom">
-              Portfolio
+        <div id="home" class="section intro-page">
+            <div class="block content-1170 center-relative center-text">
+                <img class="top-logo" src="demo-images/ada-portfolio.jpg" alt="Boxus" />
+                <br>
+                <h1 class="big-title">Hey ! Im Ada<span> An UX designer who loves to create lovely experiences </span></h1>
+           
             </div>
-          </div>
         </div>
 
 
-        <div class="row bottom ">
 
-            <div class=" col-xs-12 col-sm-4 col-lg-4">
+   
 
-
-                <div class="zoom">
-                  <a >
-                    <img class="img-rounded img-responsive " src="assets/images/financiatech.png" alt="Logo de aplicación" data-toggle="modal" data-target="#modalfinanciatech">
-                  </a>
-                </div>
-    
-                <!--Modal Financiatech-->
-                <div class="modal fade text-modal" id="modalfinanciatech" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                        <h3 class="modal-title text-center" id="myModalLabel">Financiatech!</h3>
-                        <div class="col-xs-6  text-center  ">
-    
-                          <a class="btn  btn-marine " href="https://github.com/adayc/financiate" target="_blank" role="button">
-                            <img src="assets/images/github-marine.png" alt="Imagen de usuario"> View project
-    
-                          </a>
-                        </div>
-                        <div class="col-xs-6   text-center">
-    
-                          <a class="btn btn-marine " href="https://marvelapp.com/85jc571/screen/40120446" target="_blank" role="button">
-                            <img src="assets/images/demo.png" alt="Imagen de usuario"> View demo
-    
-    
-                          </a>
-                        </div>
-                      </div>
-                      <div class="modal-body">
-                        <h4>Features</h4>
-                        <p>
-                            Financiatech is an online financial advisor that allows you to invest the savings of young professionals between 18 and 30 years. This financial adviser guides the investment according to the profile that each person has and takes as objectives the motivations, as well as the goals of each one.
-                        </p>
-                        <h4>Tools used in the project</h4>
-                        <p>
-                          <ul type="none">
-                            <li>
-                              -Testing Tools
-                            </li>
-                            <li>
-                              -Affinity map
-                            </li>
-                            <li>
-                              -User personas
-                            </li>
-                            <li>
-                              -Figma
-                            </li>
-                            <li>
-                              -Marvel
-                            </li>
-                            <li>
-                              -User research
-                            </li>
-                            <li>
-                                -Paper prototyping
-                              </li>
-                          </ul>
-                        </p>
-                      </div>
-    
+        <!-- Portfolio -->
+        <div id="portfolio" class="section">
+            <div class="block content-1170 center-relative">
+                <div class="section-title-holder right">
+                    <div class="section-num">
+                        <span>02</span>
                     </div>
-                  </div>
+                    <h2 class="entry-title">Portfolio</h2>
                 </div>
-    
-              </div>
+                <div class="section-content-holder portfolio-holder left">
+                    <div class="grid" id="portfolio-grid">
+                        <div class="grid-sizer"></div>
 
-              <div class=" col-xs-12 col-sm-4 col-lg-4">
-
-
-                  <div class="zoom">
-                    <a >
-                      <img class="img-rounded img-responsive " src="assets/images/here.png" alt="Logo de aplicación" data-toggle="modal" data-target="#modalhere">
-                    </a>
-                  </div>
-      
-                  <!--Modal Here Maps-->
-                  <div class="modal fade text-modal" id="modalhere" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                          <h3 class="modal-title text-center" id="myModalLabel">Here Maps</h3>
-                          <div class="col-xs-6  text-center  ">
-      
-                            <a class="btn  btn-marine " href="https://github.com/adayc/heremaps" target="_blank" role="button">
-                              <img src="assets/images/github-marine.png" alt="Imagen de usuario"> View project
-      
+                       <!-- <div class="grid-item element-item p_one">
+                            <a href="single-portfolio.html">
+                                 <img src="demo-images/lyfe.jpg" alt="">
+                                <div class="portfolio-text-holder">
+                                    <div class="portfolio-text-wrapper">
+                                        <p class="portfolio-type">
+                                           <img src="images/icon_post.svg" alt="">
+                                        </p>
+                                        <p class="portfolio-text">LYFE - Hackatrix 2018</p>
+                                        <p class="portfolio-sec-text">LYFE es un acrónimo de “Live your Life” con el cual deseamos que el tiempo que se emplea en las colas sean invertidos en otras actividades mientras se esperal el turno de atención.
+                                            Esto se logra mediante una app que permita generar tickets de atención tanto a clientes y “no clientes” del banco. Al generarse el ticket se ubica al cliente con las agencias más cercanas o en su defecto puede elegir el distrito donde será atendido.
+                                            Al momento de elegir la agencia mostrará opciones de turnos de atención a escoger y generará un ticket con la hora aproximada, adicional a esto podrás descargar tu ticket en PDF en caso pierdas la conexión a internet.</p>
+                                    </div>
+                                </div>
                             </a>
-                          </div>
-                          <div class="col-xs-6   text-center">
-      
-                            <a class="btn btn-marine " href="https://marvelapp.com/32j9ic5/screen/40552743" target="_blank" role="button">
-                              <img src="assets/images/demo.png" alt="Imagen de usuario"> View demo
-      
-      
+                        </div> -->
+
+                        <div class="grid-item element-item p_one_half">
+                            <a target="blank" href="https://marvelapp.com/49e2605/screen/43360878">
+                                <img src="demo-images/lyfe.jpg" alt="">
+                                <div class="portfolio-text-holder">
+                                    <div class="portfolio-text-wrapper">
+                                        
+                                        <p class="portfolio-text">LYFE - Hackatrix 2018</p>
+                                        <p class="portfolio-sec-text">LYFE is an app that allows you to generate online service tickets for both customers and "non-customers" of a bank. When the ticket is generated, the customer is located with the nearest agencies or, failing that, he can choose the district where he will be attended.
+                                            </p>
+                                            <p class="portfolio-sec-text2">
+                                                Tools: user interviews, benchmarking, user flows, customer journey, prototype of low and high fidelity, figma and marvel.
+                                             </p>
+                                            
+                                    </div>
+                                </div>
+                               
                             </a>
-                          </div>
+                            
+                            
                         </div>
-                        <div class="modal-body">
-                          <h4>Features</h4>
-                          <p>
-                              It is a mobile application that allows users to track and monitor routes that take place on outdoor / outdoor trails, aimed at lovers of adventure activities (mountains, lakes, parks, etc.) in Peru. This app allows you to search nearby routes, record them and share photos, videos in real time. In addition to access offline maps and share your location in real time.
-                          </p>
-                          <h4>Tools used in the project</h4>
-                          <p>
-                            <ul type="none">
-                              <li>
-                                -User research
-                              </li>
-                              <li>
-                                -Testing Tools
-                              </li>
-                              <li>
-                                -Prototyping interaction
-                              </li>
-                              <li>
-                                -Figma
-                              </li>
-                              <li>
-                                -Marvel
-                              </li>
-                              <li>
-                                -Maps
-                              </li>
-                            </ul>
-                          </p>
+
+
+                        <div class="grid-item element-item p_one_half">
+                            <a target="blank" href="https://marvelapp.com/15ag7c7g/screen/41101699">
+                                <img src="https://user-images.githubusercontent.com/32311089/39413975-83a96464-4bf7-11e8-8512-31d14c096c79.png"  alt="">
+                                <div class="portfolio-text-holder">
+                                    <div class="portfolio-text-wrapper">
+                                       <p class="portfolio-text">CLUB AVENTURA</p>
+                                            <p class="portfolio-sec-text">Club Aventura is a customer loyalty system for Mall Aventura, it was made through Service Design.
+                                            The customer gets points for being in the mall or buying and redeeming their purchase tickets.
+                                           
+                                        </p>
+                                       
+                                        <p class="portfolio-sec-text2">
+                                           Tools: user interviews, benchmarking, user flows, customer journey, prototype of low and high fidelity, figma and marvel.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
-      
-                      </div>
+
+
+
+
+
+
+                        <div class="grid-item element-item p_one">
+                            <a target="blank" href="https://marvelapp.com/4066a1d/screen/38906794">
+                                <img src="https://user-images.githubusercontent.com/32311089/38593584-ac56e4f8-3d07-11e8-9407-518c957c27d6.png" alt="">
+                                <div class="portfolio-text-holder">
+                                    <div class="portfolio-text-wrapper">
+                                        
+                                        <p class="portfolio-text">TalentGo - Everis</p>
+                                        <p class="portfolio-sec-text">It is a virtual platform in which the applicant will have access to a profile where they will be able to test their technical skills, and the recruiter will have access to them, being able to corroborate them; this way you can evaluate them in an efficient way, saving time and money. At the same time, the recruiter will have access to a profile in which they can constantly check the stages of their requirements processes, access data from past candidates and be able to better filter the needs in terms of the profile sought.
+                                            </p>
+                                            <p class="portfolio-sec-text2">
+                                                Tools: Moments, archetype, diagram design, service design, figma and marvel.
+                                             </p>
+                                            
+                                    </div>
+                                </div>
+                               
+                            </a>
+                            
+                            
+                        </div>
+
+                        <div class="grid-item element-item p_one_half">
+                            <a target="blank" href="https://marvelapp.com/85jc571/screen/40120446">
+                                <img src="images/financiatech.png" alt="">
+                                <div class="portfolio-text-holder">
+                                    <div class="portfolio-text-wrapper">
+                                        
+                                        <p class="portfolio-text">Financiatech</p>
+                                        <p class="portfolio-sec-text">Financiatech is an online financial advisor that allows you to invest the savings of young professionals between 18 and 30 years. This financial adviser guides the investment according to the profile that each person has and takes as objectives the motivations, as well as the goals of each one.
+                                            </p>
+                                            <p class="portfolio-sec-text2">
+                                                Tools: Testing Tools, affinity map, user personas, user research,paper prototyping, figma and marvel.
+                                             </p>
+                                            
+                                    </div>
+                                </div>
+                               
+                            </a>
+                            
+                            
+                        </div>
+
+
+                        <div class="grid-item element-item p_one_half">
+                            <a target="blank" href="https://marvelapp.com/32j9ic5/screen/40552743">
+                                <img src="images/here.png"  alt="">
+                                <div class="portfolio-text-holder">
+                                    <div class="portfolio-text-wrapper">
+                                       <p class="portfolio-text">Here Maps</p>
+                                            <p class="portfolio-sec-text">It is a mobile application that allows users to track and monitor routes that take place on outdoor / outdoor trails, aimed at lovers of adventure activities (mountains, lakes, parks, etc.) in Peru. This app allows you to search nearby routes, record them and share photos, videos in real time. In addition to access offline maps and share your location in real time.
+                                           
+                                        </p>
+                                       
+                                        <p class="portfolio-sec-text2">
+                                           Tools: User research, testing tools, prototyping interaction, maps, figma and marvel.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item element-item p_one">
+                            <a target="blank" href="https://marvelapp.com/2jgha7h/screen/38636404">
+                                <img src="https://user-images.githubusercontent.com/32303418/36361934-35457edc-14fe-11e8-955e-c8a77426b076.jpg" alt="">
+                                <div class="portfolio-text-holder">
+                                    <div class="portfolio-text-wrapper">
+                                        
+                                        <p class="portfolio-text">Viaggio</p>
+                                        <p class="portfolio-sec-text">Viaggio is a website that allows you to make comparisons between the main services provided by interprovincial buses, and also shows a map with the route and stops. All this with the aim of providing comfort and safety to passengers who choose a bus.
+                                            </p>
+                                            <p class="portfolio-sec-text2">
+                                                Tools: Storytelling,affinity map,user personas, adobe illustrator, figma and marvel.
+                                             </p>
+                                            
+                                    </div>
+                                </div>
+                               
+                            </a>
+                            
+                            
+                        </div>
+                       <!--- <div class="grid-item element-item p_one">
+                            <a data-rel="prettyPhoto[gallery1]" href="demo-images/portfolio_item_05.jpg">
+                                <img src="demo-images/portfolio_item_05.jpg" alt="">
+                                <div class="portfolio-text-holder">
+                                    <div class="portfolio-text-wrapper">
+                                        <p class="portfolio-type">
+                                            <img src="images/icon_post.svg" alt="">
+                                        </p>
+                                        <p class="portfolio-text">PSD MOCKUP</p>
+                                        <p class="portfolio-sec-text">Eliminar</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>-->
+
+
                     </div>
-                  </div>
-      
+
+                    <div class="clear"></div>
+                 <!---
+                    <div class="block portfolio-load-more-holder">
+                        <a target="_self" class="more-posts">LOAD MORE</a>
+                        <img src="images/icon_infinity.svg" alt="Load more">
+                    </div>
+                -->
+
                 </div>
-      
-                <div class=" col-xs-12  col-sm-4 col-lg-4">
-
-
-                    <div class="zoom">
-                      <a >
-                        <img class="img-rounded img-responsive " src="assets/images/logomujerchica.png" alt="Logo de aplicación" data-toggle="modal" data-target="#modalWarmi">
-                      </a>
-                    </div>
-        
-                    <!--Modal Warmi-->
-                    <div class="modal fade text-modal" id="modalWarmi" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                      <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                            <h3 class="modal-title text-center" id="myModalLabel">Warmi trip</h3>
-                            <div class="col-xs-6  text-center  ">
-        
-                              <a class="btn  btn-marine " target="_blank" role="button" href="https://github.com/adayc/warmi-trip" >
-                                <img src="assets/images/github-marine.png" alt="Imagen de usuario"> View project
-        
-                              </a>
-                            </div>
-                            <div class="col-xs-6   text-center">
-        
-                              <a class="btn btn-marine " target="_blank" role="button" href="https://adayc.github.io/warmi-trip/">
-                                <img src="assets/images/demo.png" alt="Imagen de usuario"> View demo
-        
-        
-                              </a>
-                            </div>
-                          </div>
-                          <div class="modal-body">
-                            <h4>Features</h4>
-                            <p>
-                                Warmi trip is a social network oriented only for traveling women. In this you can post photos as well as plan them with a
-                                budget and suggestions. In addition to this we offer an emergency button in case you find yourself in
-                                a dangerous situation and need help.
-                            </p>
-                            <h4>Tools used in the project</h4>
-                            <p>
-                                <ul type="none">
-                                    <li>
-                                      -HTML5
-                                    </li>
-                                    <li>
-                                      -CSS3
-                                    </li>
-                                    <li>
-                                      -JQuery
-                                    </li>
-                                    <li>
-                                      -User research
-                                    </li>
-                                    <li>
-                                      -Bootstrap
-                                    </li>
-                                    <li>
-                                      -Marvel
-                                    </li>
-                                  </ul>
-                            </p>
-                          </div>
-        
-                        </div>
-                      </div>
-                    </div>
-        
-                  </div>
-            
-
-
-              <div class=" col-xs-12 col-sm-12 col-lg-8">
-
-
-                <div class="zoom">
-                  <a >
-                    <img class="img-rounded img-responsive " src="assets/images/talentgo.png" alt="Logo de aplicación" data-toggle="modal" data-target="#modaltalentgo">
-                  </a>
-                </div>
-    
-                <!--Modal Talent Go-->
-                <div class="modal fade text-modal" id="modaltalentgo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                        <h3 class="modal-title text-center" id="myModalLabel">TalentGo - Everis</h3>
-                        <div class="col-xs-6  text-center  ">
-    
-                          <a class="btn  btn-marine " href="https://github.com/adayc/TalentGo-Everis" target="_blank" role="button">
-                            <img src="assets/images/github-marine.png" alt="Imagen de usuario"> View project
-    
-                          </a>
-                        </div>
-                        <div class="col-xs-6   text-center">
-    
-                          <a class="btn btn-marine " href="https://marvelapp.com/4066a1d/screen/38906794" target="_blank" role="button">
-                            <img src="assets/images/demo.png" alt="Imagen de usuario"> View demo
-    
-    
-                          </a>
-                        </div>
-                      </div>
-                      <div class="modal-body">
-                        <h4>Features</h4>
-                        <p>
-                            It is a virtual platform in which the applicant will have access to a profile where they will be able to test their technical skills, and the recruiter will have access to them, being able to corroborate them; this way you can evaluate them in an efficient way, saving time and money. At the same time, the recruiter will have access to a profile in which they can constantly check the stages of their requirements processes, access data from past candidates and be able to better filter the needs in terms of the profile sought.
-                        </p>
-                        <h4>Tools used in the project</h4>
-                        <p>
-                          <ul type="none">
-                            <li>
-                              -Moments
-                            </li>
-                            <li>
-                              -Archetype
-                            </li>
-                            <li>
-                              -Diagram design
-                            </li>
-                            <li>
-                              -Service design 
-                            </li>
-                            <li>
-                              -Marvel
-                            </li>
-                            <li>
-                              -Figma
-                            </li>
-                          </ul>
-                        </p>
-                      </div>
-    
-                    </div>
-                  </div>
-                </div>
-    
-              </div>
-
-         
-
-
-          
-              <div class=" col-xs-12 col-sm-6 col-lg-6">
-
-
-            <div class="zoom">
-              <a>
-                <img class="img-rounded img-responsive " src="assets/images/viaggio.jpg" alt="Logo de aplicación" data-toggle="modal" data-target="#modalViaggio">
-              </a>
+                <div class="clear"></div>
             </div>
+            <div class="clear"></div>
+        </div>
 
-            <!--Modal Viaggio-->
-            <div class="modal fade text-modal" id="modalViaggio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                    <h3 class="modal-title text-center" id="myModalLabel">Viaggio</h3>
-                    <div class="col-xs-6  text-center  ">
 
-                      <a class="btn  btn-marine " href="https://github.com/adayc/web-buses" target="_blank" role="button">
-                        <img src="assets/images/github-marine.png" alt="Imagen de usuario"> View project
-
-                      </a>
+        <!-- About -->
+        <div id="about" class="section">
+            <div class="block content-1170 center-relative">
+                <div class="section-title-holder left">
+                    <div class="section-num">
+                        <span>03</span>
                     </div>
-                    <div class="col-xs-6   text-center">
-
-                      <a class="btn btn-marine " href="https://marvelapp.com/2jgha7h/screen/38636406" target="_blank" role="button">
-                        <img src="assets/images/demo.png" alt="Imagen de usuario"> View demo
-
-
-                      </a>
+                    <h2 class="entry-title">CRAFTERS</h2>
+                </div>
+                <div class="section-content-holder right">
+                    <div class="content-wrapper">
+                        <div class="content-title-holder">
+                            <p class="content-title"> About </p>
+                        </div>
+                        <div class="one_half ">
+                            Polor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt ut dolore magna labore eiusmod. Lorem ipsum <strong>dolor sit amet</strong> consectetur est adipisicing elit, sed do eiusmod tempor
+                        </div>
+                        <div class="one_half last ">
+                            <span style="color: #e54b76;"><strong>2001-2003 ·</strong></span> <span style="color:#727190;"><em>Art Studio Lorem Donec</em></span><br>
+                            <span style="color: #e54b76;"><strong>2003-2006 ·</strong></span> <span style="color:#727190;"><em>Per Set Web Site</em></span><br>
+                            <span style="color: #e54b76;"><strong>2006-2010 ·</strong></span> <span style="color:#727190;"><em>Setera Donec EstNunc</em></span><br>
+                            <span style="color: #e54b76;"><strong>2010-2013 ·</strong></span> <span style="color:#727190;"><em>Studio Labore Tempor</em></span><br>
+                            <span style="color: #e54b76;"><strong>2013-2016 ·</strong></span> <span style="color:#727190;"><em>Magna Ipsum Amet</em></span><br>
+                        </div><div class="clear"></div>
+                        <br>
+                        <br>
                     </div>
-                  </div>
-                  <div class="modal-body">
-                    <h4>Features</h4>
-                    <p>
-                      Viaggio is a website that allows you to make comparisons between the main services provided by interprovincial buses, and
-                      also shows a map with the route and stops. All this with the aim of providing comfort and safety to
-                      passengers who choose a bus.
-                    </p>
-                    <h4>Tools used in the project</h4>
-                    <p>
-                      <ul type="none">
-                        <li>
-                          -Storytelling
-                        </li>
-                        <li>
-                          -Affinity map
-                        </li>
-                        <li>
-                          -User personas
-                        </li>
-                        <li>
-                          -Adobe illustrator
-                        </li>
-                        <li>
-                          -Marvel
-                        </li>
-                        <li>
-                          -Content prototype
-                        </li>
-                      </ul>
-                    </p>
-                  </div>
+
+                    <div class="full-width ">
+                        <script>
+                            var aboutImage_speed = "500";
+                            var aboutImage_auto = "false";
+                            var aboutImage_hover = "true";
+                        </script>
+                        <div class="image-slider-wrapper relative img aboutImage">
+                            <a id="aboutImage_next" class="image_slider_next" href="#"></a>
+                            <div class="caroufredsel_wrapper">
+                                <ul id="aboutImage" class="image-slider slides">
+                                    <li><img src="demo-images/about_img_04.jpg" alt=""></li>
+                                    <li><img src="demo-images/about_img_05.jpg" alt=""></li>
+                                    <li><img src="demo-images/about_img_06.jpg" alt=""></li>
+                                </ul>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <script>
+                            var team1_speed = "500";
+                            var team1_auto = "false";
+                            var team1_hover = "true";
+                        </script>
+                        <div class="image-slider-wrapper relative team team1">
+                            <a id="team1_next" class="image_slider_next" href="#"></a>
+                            <div class="caroufredsel_wrapper">
+                                <ul id="team1" class="image-slider slides">
+                                    <li>
+                                        <div class="member-content-holder">
+                                            <h4 class="member-name">Robert Williams</h4>
+                                            <p class="member-position">LEAD DESIGNER</p>
+                                            <div class="member-content">
+                                                Eiusmod tempor incididunt ut dolore magna labore eiusmod. Lorem ipsum dolor sit amet consectetur est lorem adipisicing elit, sed do eiusmod tempor polor sit amet consectetur.<br>
+                                            </div>
+                                        </div>
+                                        <div class="member-image-holder">
+                                            <img src="demo-images/about_img_01.jpg" alt="">
+                                        </div>
+                                        <div class="clear"></div>
+                                    </li>
+
+                                    <li>
+                                        <div class="member-content-holder">
+                                            <h4 class="member-name">John Doe</h4>
+                                            <p class="member-position">SEO MASTER</p>
+                                            <div class="member-content">
+                                                Eiusmod tempor incididunt ut dolore magna labore eiusmod. Lorem ipsum dolor sit amet consectetur est lorem adipisicing elit, sed do eiusmod tempor polor sit amet consectetur.<br>
+                                            </div>
+                                        </div>
+                                        <div class="member-image-holder">
+                                            <img src="demo-images/about_img_02.jpg" alt="">
+                                        </div>
+                                        <div class="clear"></div>
+                                    </li>
+
+                                    <li>
+                                        <div class="member-content-holder">
+                                            <h4 class="member-name">John Doe</h4>
+                                            <p class="member-position">PSD GURU</p>
+                                            <div class="member-content">
+                                                Eiusmod tempor incididunt ut dolore magna labore eiusmod. Lorem ipsum dolor sit amet consectetur est lorem adipisicing elit, sed do eiusmod tempor polor sit amet consectetur.<br>
+                                            </div>
+                                        </div>
+                                        <div class="member-image-holder">
+                                            <img src="demo-images/about_img_03.jpg" alt="">
+                                        </div>
+                                        <div class="clear"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>   <!-- end full-width div -->
 
                 </div>
-              </div>
+                <div class="clear"></div>
             </div>
+        </div>
 
-          </div>
+
 
       
-  
-            <div class=" col-xs-12 col-sm-6 col-lg-6">
 
 
-                <div class="zoom">
-                  <a>
-                    <img class="img-rounded img-responsive " src="assets/images/foodmap.jpg" alt="Logo de aplicación" data-toggle="modal" data-target="#modalFoodmap">
-                  </a>
-                </div>
-    
-                <!--Modal Foodmap-->
-                <div class="modal fade text-modal" id="modalFoodmap" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                        <h3 class="modal-title text-center" id="myModalLabel">Foodmap</h3>
-                        <div class="col-xs-6  text-center  ">
-    
-                          <a class="btn  btn-marine "  href="https://github.com/adayc/foodmap" target="_blank" role="button">
-                            <img src="assets/images/github-marine.png" alt="Imagen de usuario"> View project
-    
-                          </a>
-                        </div>
-                        <div class="col-xs-6   text-center">
-    
-                          <a class="btn btn-marine " href="https://adayc.github.io/foodmap/" target="_blank" role="button">
-                            <img src="assets/images/demo.png" alt="Imagen de usuario"> View demo
-    
-    
-                          </a>
-                        </div>
-                      </div>
-                      <div class="modal-body">
-                        <h4>Features</h4>
-                        <p>
-                        
-                            FoodMap is an application that allows you to find restaurants near your location according to the area, among them we have
-                            typical food, fish and seafood, etc. Additional to this shows the location, capacity, payment methods
-                            of the restaurant, if it is petfriendly and its website.
-                        </p>
-                        <h4>Tools used in the project</h4>
-                        <p>
-                            <ul type="none">
-                                <li>
-                                  -HTML5
-                                </li>
-                                <li>
-                                  -CSS3
-                                </li>
-                                <li>
-                                  -JQuery
-                                </li>
-                                <li>
-                                  -User research
-                                </li>
-                                <li>
-                                  -Figma
-                                </li>
-                                <li>
-                                  -Marvel
-                                </li>
-                              </ul>
-                          </ul>
-                        </p>
-                      </div>
-    
+        <!-- Skills -->
+
+        <div id="skills" class="section">
+            <div class="block content-1170 center-relative">
+                <div class="section-title-holder right">
+                    <div class="section-num">
+                        <span>04</span>
                     </div>
-                  </div>
+                    <h2 class="entry-title">EXPERTISE</h2>
                 </div>
-    
-              </div>
-
-
-
-
-
-
-        </div>
-
-      </div>
-    </section>
-
-
-    <section id="contact" class="bg-black text-white ">
-      <div class="container-fluid ">
-
-
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="cardo-text text-center padding-section">
-                Contact
+                <div class="section-content-holder left">
+                    <div class="content-wrapper">
+                        <div class="content-title-holder">
+                            <p class="content-title">Skills</p>
+                        </div>
+                        <p>Fusce suscipit, orci eget lobortis sodales, velit nunc tristique metus, in tristique odio ante id sem. Etiam in quam et sapien bibendum mollis. Morbi eget velit eros, quis imperdiet arcusere perdan. Nunc lorem justo, pellentesque ac egestas quis.</p>
+                        <br>
+                        <div class="progress_bar ">
+                            <div class="progress_bar_field_holder" style="width:81%;">
+                                <div class="progress_bar_title" style="color: #55B286">HTML</div>
+                                <div class="progress_bar_percent_text" style="color: #55B286">81%</div>
+                                <div class="progress_bar_field_perecent" style="background-color:#32DB8A;"></div>
+                            </div>
+                        </div>
+                        <div class="progress_bar ">
+                            <div class="progress_bar_field_holder" style="width:93%;">
+                                <div class="progress_bar_title" style="color: #E3A536">CSS</div>
+                                <div class="progress_bar_percent_text" style="color: #E3A536">93%</div>
+                                <div class="progress_bar_field_perecent" style="background-color:#FFBB42;"></div>
+                            </div>
+                        </div>
+                        <div class="progress_bar ">
+                            <div class="progress_bar_field_holder" style="width:72%;">
+                                <div class="progress_bar_title" style="color: #B24564">PSD</div>
+                                <div class="progress_bar_percent_text" style="color: #B24564">72%</div>
+                                <div class="progress_bar_field_perecent" style="background-color:#E74C78;"></div>
+                            </div>
+                        </div>
+                        <div class="progress_bar ">
+                            <div class="progress_bar_field_holder" style="width:99%;">
+                                <div class="progress_bar_title" style="color: #468ac7">DESIGN</div>
+                                <div class="progress_bar_percent_text" style="color: #468ac7">99%</div>
+                                <div class="progress_bar_field_perecent" style="background-color:#4C9EE7;"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <div class="clear"></div>
+            </div>
         </div>
 
-
-
-
-        <div class="row  text-section">
-
-          <div class=" col-xs-12   text-center      ">
-
-
-
-            <p>
-              If you want to collaborate with me on crafting amazing user experiences – just contact me!
-
-
-            </p>
-
-
-
-
-            <p>
-              I am available for freelance projects and full-time employment.
-            </p>
-
-
-          </div>
-          <div class="  col-sm-4 col-sm-offset-4  col-xs-12 text-center padding  ">
-            <a class="" href="to:adayc@hotmail.com?subject=Hi, Ada!">adayc@hotmail.com</a>
-          </div>
-          <div class="  col-sm-4 col-sm-offset-4  col-xs-12 text-center bottom  ">
-            <a href="assets/cv.pdf" download>
-              <img src="assets/images/downloadcv.png" alt="Logo de aplicación">
-            </a>
-          </div>
-
-
-
-
-
-
-
-
-
-        </div>
-        <div class="row bottom">
-
-
-          <div class="col-xs-3 text-center padding  ">
-            <a href="https://github.com/adayc" target="_blank">
-              <img class="" src="assets/images/github-white.png" alt="Logo de aplicación">
-            </a>
-          </div>
-
-
-          <div class="col-xs-3 text-center padding ">
-            <a href="https://www.linkedin.com/in/adayajahuanca/" target="_blank">
-              <img class="" src="assets/images/linkedin-white.png" alt="Logo de aplicación">
-            </a>
-
-
-          </div>
-          <div class="col-xs-3 text-center padding ">
-
-            <a href="https://medium.com/@adayc" target="_blank">
-              <img class="" src="assets/images/medium-white.png" alt="Logo de aplicación">
-            </a>
-          </div>
-
-
-
-          <div class="col-xs-3 text-center padding ">
-            <a href="https://twitter.com/adayc2703" target="_blank">
-              <img class="" src="assets/images/twitter-white.png" alt="Logo de aplicación">
-            </a>
-
-          </div>
-
-
-
+        <!-- Contact -->
+        <div id="contact" class="section">
+            <div class="block content-1170 center-relative">
+                <div class="section-title-holder left">
+                    <div class="section-num">
+                        <span>
+                            05
+                        </span>
+                    </div>
+                    <h2 class="entry-title">Contact</h2>
+                </div>
+                <div class="section-content-holder right">
+                    <div class="content-wrapper">
+                        <div class="one_half ">
+                            <p>Consectetur adipisicing elit sed eiusmod tempor incididunt ut dolore magna labore eiusmod. Lorem ipsum dolor sit amet consectetur est adipisicing elit, sed do eiusmod tempor.</p>
+                            <br>
+                            <p><strong><span style="color: #e64b77;">Incididunt ut dolore</span></strong> magna labore eiusmod. Dolor sit amet consectetur est adipisicing elit, sed do eiusmod.</p>
+                        </div>
+                        <div class="one_half last">
+                            <div class="contact-form">
+                                <p><input id="name" type="text" name="your-name" placeholder="Name"></p>
+                                <p><input id="contact-email" type="email" name="your-email" placeholder="Email"></p>
+                                <p><input id="subject" type="text" name="your-subject" placeholder="Subject"></p>
+                                <p><textarea id="message" name="your-message" placeholder="Message"></textarea></p>
+                                <p><input type="submit" onClick="SendMail()" value="SEND"></p>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="full-width">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4274.290564544589!2d-75.2952832049782!3d40.753669641460846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2srs!4v1444506658649" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
         </div>
 
-      </div>
+        <!-- Footer -->
+
+        <footer>
+            <div class="footer content-1170 center-relative">
+                <ul>
+                    <li class="copyright-footer">
+                        © 2018 All rights reserved. | Boxus Template by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                    </li>
+                    <li class="social-footer">
+                        <a href="#"><span class="fa fa-twitter"></span></a>
+                        <a href="#"><span class="fa fa-behance"></span></a>
+                        <a href="#"><span class="fa fa-dribbble"></span></a>
+                        <a href="#"><span class="fa fa-facebook"></span></a>
+                        <a href="#"><span class="fa fa-rss"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
 
 
-
-    </section>
-
-  </main>
-
-
-
-
-  <footer class=" text-center padding">
-    © Copyright 2018 Ada Yajahuanca. All rights reserved.
-  </footer>
-  <!-- Js de Jquery-->
-  <script type="text/javascript" src="vendors/js/jquery-3.2.1.min.js"></script>
-  <!-- Js de bootstrap-->
-  <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
-  <!-- Js para la página-->
-  <script src="js/smooth.js"></script>
-  <script type="text/javascript" src="js/app.js"></script>
-</body>
-
+        <!--Load JavaScript-->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type='text/javascript' src='js/jquery.sticky-kit.min.js'></script>
+        <script type='text/javascript' src='js/jquery.smartmenus.min.js'></script>
+        <script type='text/javascript' src='js/jquery.sticky.js'></script>
+        <script type='text/javascript' src='js/jquery.dryMenu.js'></script>
+        <script type='text/javascript' src='js/isotope.pkgd.js'></script>
+        <script type='text/javascript' src='js/jquery.carouFredSel-6.2.0-packed.js'></script>
+        <script type='text/javascript' src='js/jquery.mousewheel.min.js'></script>
+        <script type='text/javascript' src='js/jquery.touchSwipe.min.js'></script>
+        <script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
+        <script type='text/javascript' src='js/imagesloaded.pkgd.js'></script>
+        <script type='text/javascript' src='js/jquery.prettyPhoto.js'></script>
+        <script type='text/javascript' src='js/main.js'></script>
+    </body>
 </html>
