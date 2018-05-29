@@ -370,7 +370,7 @@ h1.big-title
     background-color: #221C5A; 
     background-image: url("demo-images/background_img_02.jpg"); 
     width: 100%;
-    background-repeat: no-repeat;
+    background-repeat:repeat-y;
     background-position: center top; 
     background-size: auto;
     z-index: 8;
@@ -577,10 +577,10 @@ div.pp_default .pp_loaderIcon
 #about
 {
     background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/background_img_03.jpg"); 
-    background-repeat: no-repeat; 
-    background-position: center top; 
-    background-size: cover; 
+   background-image: url("demo-images/item_background_01.jpg"); 
+    background-repeat: repeat; 
+    background-position: left top; 
+    background-size: 100%; 
     z-index: 7;
 }
 
@@ -867,6 +867,7 @@ a.video-popup-holder:hover img.popup-play
     font-size: 45px;
     line-height: 100%;
     transition: color .2s linear, left .2s linear;
+    
 }
 
 .progress_bar_percent_text
