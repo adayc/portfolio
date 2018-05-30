@@ -270,8 +270,11 @@ body a:hover
 .top-logo
 {
     width: 160px !important;    
-    padding-top: 150px;
+    margin-top: 150px;
+    border-radius: 6em;
 }
+
+
 
 h1.big-title
 {
@@ -1208,6 +1211,9 @@ footer
     line-height: 30px;
 }
 
+.z-index{
+    z-index: 10000 !important;    
+}
 /* END SINGLE PORTFOLIO */
 
 
