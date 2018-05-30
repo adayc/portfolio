@@ -644,7 +644,24 @@ div.pp_default .pp_loaderIcon
 
 .image-slider-wrapper.img .image-slider li img
 {
-    width: 100%;
+    width:100%;
+    
+}
+
+.caroufredsel_wrapper{
+background-color: #FFFAF0;
+}
+#aboutImage_next{
+    
+    background-color: #ee87a4;
+}
+@media screen and (min-width: 768px) { 
+.image-slider-wrapper.img .image-slider li img
+{
+    width:30%;
+    margin-left: 35%;
+    
+}
 }
 
 /* END ABOUT SECTION */
@@ -1211,8 +1228,10 @@ footer
     line-height: 30px;
 }
 
-.z-index{
-    z-index: 10000 !important;    
+.size-img{
+    width: 50%!important;
+    height: 10%!important;
+    text-align: center;
 }
 /* END SINGLE PORTFOLIO */
 
@@ -1335,6 +1354,7 @@ footer
     .image-slider-wrapper.team .image_slider_next
     {
         right: 260px;
+        
     }
 
     .blog-item-holder .entry-title 
